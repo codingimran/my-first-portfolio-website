@@ -118,3 +118,7 @@ h2 {
   border-image: linear-gradient(180deg, blue, tomato);
   border-image-slice: 1;
 }
+
+footer {
+  padding: 12px;
+}
