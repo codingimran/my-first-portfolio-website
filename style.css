@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.orange-text {
+  color: orange;
+}
+/* ************** */
+/* Top Section */
+/* ************** */
+.top {
+  display: flex;
+  background-image: url(./images/top-banner.png);
+  background-repeat: no-repeat;
+}
+
+.half-width {
+  width: 40%;
+  margin-left: 8%;
+}
+
+.half-width h1 {
+  font-size: 60px;
+  margin-top: 5%;
+}
+
+.half-width h3 {
+  padding: 2% 0 2% 0;
+}
+
+.half-width p {
+  padding-bottom: 30px;
+}
+
+.top img {
+  width: 100%;
+}
+
+.button-style {
+  text-decoration: none;
+  text-transform: uppercase;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  color: #fff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.button-style:hover {
+  background: linear-gradient(90deg, tomato, lightsalmon);
+  box-shadow: 0px 10px 10px gray;
+  font-weight: 900;
+}
+/* ************** */
+/* Middle Section */
+/* ************** */
+.middle {
+  display: flex;
+  background-image: url(./images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 15% 0;
+}
+
+.middle img {
+  width: 100%;
+}
+
+/* ************** */
+/* Experiences Section */
+/* ************** */
+.experiences {
+  background-image: url(./images/exp-bg.png);
+  background-repeat: no-repeat;
+  margin-bottom: 15%;
+}
+
+.experiences > h2 {
+  margin-bottom: 3%;
+  margin-left: 8%;
+}
+.container {
+  display: flex;
+}
+
+.card-style {
+  box-shadow: 10px 10px 40px gray;
+  padding: 30px;
+  background-color: #fff;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.style-line {
+  border-bottom: 5px solid rgba(243, 39, 107, 0.884);
+  width: 60px;
+}
+
+.style-line:hover {
+  border-bottom: 5px solid rgba(218, 10, 79, 0.884);
+}
+
+#full-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightsalmon, tomato);
+  border-image-slice: 1;
+}
+
+#baby-border {
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, tomato);
+  border-image-slice: 1;
+}
